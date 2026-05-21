@@ -30,7 +30,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl lg:text-5xl font-extrabold text-gray-900 leading-tight mb-6"
           >
-            Gestiona tu flota de mensajeros{' '}
+            Gestiona tu empresa de mensajeria{' '}
             <span className="text-[#2563EB]">en tiempo real</span>
           </motion.h1>
 
