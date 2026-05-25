@@ -7,7 +7,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex items-center gap-2">
             <a href="#" className="flex items-center gap-2">
-                      <Image src="/logo.png" alt="TracKing" width={120} height={36} priority className="h-9 w-auto" />
+                      <Image src="/logo.png" alt="TracKing" width={120} height={36} priority style={{ height: '36px', width: 'auto' }} />
                     </a>
             <span className="font-bold text-white text-lg">TracKing</span>
           </div>
@@ -17,7 +17,6 @@ export default function Footer() {
             <a href="#features" className="hover:text-white transition-colors">Funcionalidades</a>
             <a href="#how-it-works" className="hover:text-white transition-colors">Cómo funciona</a>
             <a href="#roles" className="hover:text-white transition-colors">Para quién</a>
-            <a href="#" className="hover:text-white transition-colors">Documentación API</a>
             <a href="#" className="hover:text-white transition-colors">GitHub</a>
           </nav>
 

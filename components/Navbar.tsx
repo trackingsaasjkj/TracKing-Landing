@@ -24,7 +24,7 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <Image src="/logo.png" alt="TracKing" width={120} height={36} priority className="h-9 w-auto" />
+          <Image src="/logo.png" alt="TracKing" width={120} height={36} priority style={{ height: '36px', width: 'auto' }} />
           <span className="font-bold text-gray-600 text-lg">TracKing</span>
         </a>
         
@@ -45,12 +45,6 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a
-            href="#how-it-works"
-            className="text-sm text-gray-600 hover:text-[#2563EB] transition-colors font-medium"
-          >
-            Documentación
-          </a>
           <a
             href="#cta"
             className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
