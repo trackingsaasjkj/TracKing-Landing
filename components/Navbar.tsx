@@ -46,10 +46,10 @@ export default function Navbar() {
         {/* CTA */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="#cta"
+            href="#contacto"
             className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
           >
-            Crear empresa
+            Contacto
           </a>
         </div>
 
@@ -77,11 +77,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#cta"
+            href="#contacto"
             onClick={() => setOpen(false)}
             className="bg-[#2563EB] text-white text-sm font-semibold px-4 py-2 rounded-lg text-center"
           >
-            Crear empresa
+            Contacto
           </a>
         </div>
       )}

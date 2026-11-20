@@ -46,8 +46,8 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-3"
           >
-            <a href="#cta" className="inline-flex items-center justify-center gap-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm">
-              Crear empresa gratis <ArrowRight size={16} />
+            <a href="#contacto" className="inline-flex items-center justify-center gap-2 bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-6 py-3 rounded-xl transition-colors text-sm">
+              Contacto <ArrowRight size={16} />
             </a>
             <a href="#how-it-works" className="inline-flex items-center justify-center gap-2 bg-white border border-gray-200 hover:border-[#2563EB] text-gray-700 hover:text-[#2563EB] font-semibold px-6 py-3 rounded-xl transition-colors text-sm">
               Ver cómo funciona

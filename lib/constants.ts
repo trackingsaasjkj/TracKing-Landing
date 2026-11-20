@@ -2,6 +2,7 @@ export const NAV_LINKS = [
   { label: 'Funcionalidades', href: '#features' },
   { label: 'Cómo funciona', href: '#how-it-works' },
   { label: 'Para quién', href: '#roles' },
+  { label: 'Contacto', href: '#contacto' },
 ]
 
 export const FEATURES = [

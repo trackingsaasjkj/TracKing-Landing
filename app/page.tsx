@@ -4,7 +4,7 @@ import Problem from '@/components/Problem'
 import Features from '@/components/Features'
 import HowItWorks from '@/components/HowItWorks'
 import Roles from '@/components/Roles'
-import CTA from '@/components/CTA'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Roles />
-      <CTA />
+      <Contact />
       <Footer />
     </main>
   )
